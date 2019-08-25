@@ -1,0 +1,33 @@
+// Search Form
+.flickr-search-form
+  display: flex
+  justify-content: center
+  .flickr-search-input
+    min-width: 150px
+    max-width: 500px
+    margin: 8px 12px
+    width: 100%
+.spinner
+  margin: 20px auto
+
+//  Images Grid
+.images-container
+  max-width: 1200px
+  margin: 10px auto
+  columns: 250px
+  column-gap: 20px
+  .image-card
+    break-inside: avoid-column
+    margin-bottom: 1rem
+  .mat-card-image
+    margin-top: 0
+  .image-description, mat-card-title, mat-card-subtitle
+    overflow: hidden !important
+    text-overflow: ellipsis
+    display: -webkit-box
+    -webkit-line-clamp: 4
+    -webkit-box-orient: vertical
+  mat-card-title, mat-card-subtitle
+    -webkit-line-clamp: 1
+.loader
+  margin: 20px auto

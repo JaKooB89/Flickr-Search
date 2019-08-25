@@ -1,0 +1,44 @@
+.flickr-search-form {
+  display: flex;
+  justify-content: center;
+}
+.flickr-search-form .flickr-search-input {
+  min-width: 150px;
+  max-width: 500px;
+  margin: 8px 12px;
+  width: 100%;
+}
+
+.spinner {
+  margin: 20px auto;
+}
+
+.images-container {
+  max-width: 1200px;
+  margin: 10px auto;
+  columns: 250px;
+  column-gap: 20px;
+}
+.images-container .image-card {
+  break-inside: avoid-column;
+  margin-bottom: 1rem;
+}
+.images-container .mat-card-image {
+  margin-top: 0;
+}
+.images-container .image-description, .images-container mat-card-title, .images-container mat-card-subtitle {
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.images-container mat-card-title, .images-container mat-card-subtitle {
+  -webkit-line-clamp: 1;
+}
+
+.loader {
+  margin: 20px auto;
+}
+
+/*# sourceMappingURL=image-list.component.css.map */
