@@ -6,7 +6,7 @@ Created by Jakub Czaja (jakoob89@gmail.com) as a technical test
 
 ## Development
 
-Live preview can be found here: https://jakoob.co.uk/Flickr-Search/
+Live preview can be found here: https://flickr.jakoob.co.uk/
 
 
 ## Tools used
